@@ -2,7 +2,7 @@
 
 /*
    Plugin Name: Hello world
-   Pluging URI: https://marlonfalcon.cl
+   Plugin URI: https://marlonfalcon.cl
    Description: Plugin Demo de Wordpress
    Author: Marlon Falcon
    Version: 1.0
