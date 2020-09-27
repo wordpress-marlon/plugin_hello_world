@@ -13,13 +13,16 @@
 function hello_world($atts){
     $args = shortcode_atts(array(
         'name' => 'Marlon',
-        'website' => 'marlonfalcon.cl',
+        'website' => 'https://marlonfalcon.cl',
 
     ),$atts);
 
-    $text = "<a href='".$args['website']."'>".$args['name']."</a>";
+    $text = "<div class='container'>Hello <a href='".$args['website']."'>".$args['name']."</a></div>";
 
     return $text;
 }
+
+
+add_shortcode( "hello_world_sc", "hello_world" );
 
 ?>
